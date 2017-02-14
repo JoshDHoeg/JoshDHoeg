@@ -1,0 +1,28 @@
+body h1{
+  color: #ffffff;
+  font-size: 400%;
+  font-family: 'Russo One', sans-serif;
+}
+body h2{
+  color: #ffffff;
+  font-size: 250%;
+  font-family: 'Russo One', sans-serif;
+}
+body{
+  background-image: url("http://cdn.oboi7.com/content/images/2b/04/2b0419dac75f7723e9ba28034a56438c041ddb8e.jpg");
+  font-family: 'Russo One', sans-serif;
+}
+.social-icon{
+  height: 100px;
+  width: 100px;
+}
+.icons{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.intro{
+  padding-top: 75px;
+}
+#LetsConnect{
+  float: right;
+}

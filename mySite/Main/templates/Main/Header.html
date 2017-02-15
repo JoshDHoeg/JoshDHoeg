@@ -10,12 +10,19 @@
   <link href="{% static 'Main/css/bootstrap.min.css' %}" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
   <link rel="shortcut icon" href="{%  static 'Main/images/favicon.ico' %}">
+
+  <style>
+  ::-webkit-scrollbar{height: 10px;width: 12px;margin: 1;}
+  ::-webkit-scrollbar-track{background: #fff;}
+  ::-webkit-scrollbar-thumb{background: #d87102;}
+</style>
 </head>
 </body>
 
 <div class="container intro">
   <h1> I'm <strong>Josh Hoeg</strong>. </h1>
-  <h2>I build websites, I study computer science, and I go to concerts!</h2>
+  <h2>I build websites, and study computer science. </h2>
+  <h2>Let's meet up for coffee!</h2>
 </div>
 
 <div class="container center-block icons">
@@ -39,8 +46,9 @@
   </div>
 </div>
 
-<div class="container" id="LetsConnect">
-  <h2> Let's meet up for coffee! </h2>
+
+<div class="work">
+  <a href="https://after.live"><img class="afterlive-icon" src="{% static 'Main\images\afterlive.png' %}" height="50px"></a>
 </div>
 
 </body>

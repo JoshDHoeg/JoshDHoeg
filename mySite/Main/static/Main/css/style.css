@@ -13,22 +13,39 @@ body{
   background-attachment: fixed;
   font-family: 'Russo One', sans-serif;
 }
-.social-icon{
-  height: 100px;
-  width: 100px;
+.Social-icon{
+  height: 75px;
+  width: 75px;
+  opacity: 0.75;
 }
 .icons{
   padding-top: 75px;
   padding-bottom: 75px;
+  text-align: center;
 }
+.icon:hover .Social-icon{
+  opacity: 1;
+}
+
 .intro{
   padding-top: 75px;
+}
+.intro h2{
+  background: -webkit-linear-gradient(#f25d18, #872c01);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.intro-intro{
+  font-size:64px;
+}
+.intro-name{
+  font-size: 72px;
 }
 #LetsConnect{
   float: right;
 }
 .work{
-  padding-top: 125px;
+  padding-top: 75px;
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
 }
